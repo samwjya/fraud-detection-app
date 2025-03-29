@@ -11,7 +11,7 @@ import seaborn as sns
 df = pd.read_csv("../data/processed_creditcard.csv")
 
 #X and Y axis. We drop Class because we use Class for predicting instead of training
-X = df.drop("Class", axis = 1)
+X = df.drop(["Class", "id"], axis=1, errors='ignore')
 y = df["Class"]
 
 

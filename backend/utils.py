@@ -11,7 +11,7 @@ def preprocess_input(data: dict):
         raise ValueError(f"Invalid value data: {str(e)}")
 
 
-class TranssactionModel(BaseModel):
+class TransactionModel(BaseModel):
     V1: float
     V2: float
     V3: float
