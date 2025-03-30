@@ -51,7 +51,7 @@ if uploaded_file is not None:
                     if col in model_input:
                         model_input[col] = float(row[col])
                
-                response = requests.post("https://fraud-detection-app-8tze.onrender.com", json=model_input)
+                response = requests.post("https://fraud-detection-app-8tze.onrender.com/predict", json=model_input)
                 result = response.json()
 
                 is_fraud = result.get("fraud", False)
