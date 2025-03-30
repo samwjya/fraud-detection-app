@@ -171,3 +171,4 @@ cython_debug/
 .pypirc
 
 data/creditcard_2023.csv
+data/processed_creditcard.csv
