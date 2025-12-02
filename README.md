@@ -21,8 +21,7 @@
 # Steps to Run Locally
 ### 1. Clone this repo
 ```bash
-git clone https://github.com/your-username/your-repo.git
-cd your-repo
+git clone https://github.com/samwjya/fraud-detection-app.git
 ```
 ### 2. Create and activate a virtual environment
 ```bash
