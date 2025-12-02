@@ -1,4 +1,4 @@
-# fraud-detection-project
+# Fraud Detection Project
 A data visualization dashboard that analyzes financial transactions and predicts potential fraud using a machine learning model.
 Built with Streamlit (frontend/UI) and FastAPI (backend API)
 
